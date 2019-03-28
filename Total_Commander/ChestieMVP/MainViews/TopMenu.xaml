@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="TotalCommander.MainViews.TopMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TotalCommander.MainViews"
+      mc:Ignorable="d" 
+      d:DesignHeight="450"
+      Height="72" Margin="10,0,0,0" VerticalAlignment="Top" Width="466.838"
+      >
+
+    <Grid Margin="0,0,10.2,0">
+        <ComboBox  HorizontalAlignment="Left" Margin="0,25,0,0" VerticalAlignment="Top" Width="120" FontFamily="Segoe UI Black" Foreground="White" Background="Black" FontSize="10"/>
+        <Button Content="ZIP" Margin="142,25,166,0" VerticalAlignment="Top" Height="22" Click="Pack_Click" MouseDoubleClick="Pack_Click" FontFamily="Segoe UI Black" Foreground="White" Background="Black" FontSize="10"/>
+        <Button Content="UNZIP" HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Margin="313,25,0,0" Height="22" Click="Unpack_Click" MouseDoubleClick="Unpack_Click" FontFamily="Segoe UI Black" Foreground="White" Background="Black" FontSize="10"/>
+
+    </Grid>
+</UserControl>
